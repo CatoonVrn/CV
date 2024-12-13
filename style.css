@@ -1,4 +1,3 @@
-/* GENERAL */
 *{
   margin: 0;
   box-sizing: border-box;
@@ -65,7 +64,6 @@ h2{
   margin-bottom: 1.5rem;
 }
 
-/* LEFT COLUMN */
 .left-column{
   grid-area: left-column;
   padding: 50px;
@@ -89,7 +87,6 @@ h2{
   margin: 0 0 1rem;
 }
 
-/* RIGHT COLUMN */
 .right-column{
   grid-area: right-column;
   display: grid;
@@ -99,11 +96,10 @@ h2{
     "content";
 }
 
-/* HEADER */
 .header{
   grid-area: header;
   padding: 50px;
-  background-color: #F2F2F2;
+  background-color: #618dc2;
   display: flex;
   flex-direction: column;
   justify-content: center;
